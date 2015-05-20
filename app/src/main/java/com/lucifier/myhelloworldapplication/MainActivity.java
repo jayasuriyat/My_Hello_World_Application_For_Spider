@@ -13,7 +13,6 @@ import static android.view.View.OnClickListener;
 
 
 public class MainActivity extends ActionBarActivity {
-    int i=0;
     Button button;
     TextView textView;
     @Override
@@ -54,8 +53,7 @@ public class MainActivity extends ActionBarActivity {
     {
         @Override
         public void onClick(View v) {
-            i++;
-            textView.setText("Hello World!");
+          textView.setText("Hello World!");
 
         }
     };
